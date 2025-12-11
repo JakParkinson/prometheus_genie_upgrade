@@ -1,0 +1,66 @@
+I used absolite paths on the .sh slurm scripts that anyone on the cluster should be able to execute by runnign "sbatch ___.sh". 
+This should work except probably for the line 'conda activate myenv' which has no easy way to use aboslute paths.
+
+If you have the necessary python packages with versions installed in a conda or pyenv you could replace that line with the line to activate your own enviornment.
+
+Alternatively,  one could make a copy of my own environment using the yml file in this folder and the command:
+
+conda env create -f /groups/icecube/shared_location/environment.yml -n your_env_name
+
+If you use the enviornment name 'myenv' I think the slurm should work without changing anything, but not sure as I can't really test this.
+
+
+For the ipynb, it's a bit trickier. It may work with just the new conda enviornment, but if it doesn't then try:
+
+Step1:
+# Create a wrapper script
+cat > ~/jupyter_with_intel.sh << 'EOF'
+#!/bin/bash
+module load astro
+module load hdf5/intel/1.10.4
+module load intel/20.0.4
+source /software/astro/anaconda/anaconda3-2020.11/etc/profile.d/conda.sh
+conda activate myenv
+source /groups/icecube/jackp/setup_prometheus_and_genie.sh
+exec "$@"
+EOF
+
+chmod +x ~/jupyter_with_intel.sh
+
+Step2:
+# Create the kernel directory
+mkdir -p ~/.local/share/jupyter/kernels/myenv_with_intel
+
+# Create the kernel.json file
+cat > ~/.local/share/jupyter/kernels/myenv_with_intel/kernel.json << EOF
+{
+ "argv": [
+  "~/jupyter_with_intel.sh",
+  "python",
+  "-m",
+  "ipykernel_launcher",
+  "-f",
+  "{connection_file}"
+ ],
+ "display_name": "Python (myenv with Intel)",
+ "language": "python"
+}
+EOF
+
+Step3:
+In vscode command pallette(ctrl + shift + P) search for Preferences: Open Remote Settings (Json) and add:
+
+{
+    "jupyter.kernelspec.path": "~/.local/share/jupyter/kernels"
+}
+
+Step4:
+Restart and select "Python (myenv with Intel)" kernel
+
+Step 5:
+I had to fix my python paths manually in a code cell, there are two lines that a user (that is not jackp) would need to change:
+
+sys.path.insert(0, '/groups/icecube/jackp/prometheus_genie_cleaned/harvard-prometheus')
+sys.path.insert(0, '/groups/icecube/jackp/prometheus_genie_cleaned/harvard-prometheus/genie_examples')
+
+instead of /jackp/.... replace with your username and your path to prometheus and then the genie_examples folder
