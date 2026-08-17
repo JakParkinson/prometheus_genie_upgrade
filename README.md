@@ -29,6 +29,8 @@ Muon light yield is also changed from the following files in the prometheus fold
 For specific conda env see: environment.yml
 GENIE version: 3.04.02
 There is also a .sh file in genie_examples called genie_external_root_upgrade.sh which shows you how to run a complete simulation with supplying a gtrac.root file from GENIE.
+
+TLDR: If I were to point someone to a specific folder to look through in order to run simulations with IceCube Upgrade and/or with GENIE it would be genie_examples folder and the py/ipynb examples given there.
 *End of Preface *
 
 Welcome to Prometheus!
