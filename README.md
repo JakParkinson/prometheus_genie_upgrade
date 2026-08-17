@@ -1,7 +1,7 @@
 *Preface*
 The following preface is written by Jack Parkinson
 
-This project is the adapted Prometheus framework with additions made during my MSc thesis (thesis: https://github.com/JakParkinson/Master-s-Thesis/blob/main/final_ku_msc_thesis_2025_JackParkinson%20(4).pdf).
+This project is the adapted Prometheus framework with additions made during my MSc thesis (thesis: https://github.com/JakParkinson/Master-s-Thesis/blob/main/MSc_thesis.pdf )
 Specifically the additions are:
 
 #### GENIE injection extensibility
