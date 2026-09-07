@@ -1,0 +1,51 @@
+Configuring ppc in "/home/jack/prometheus_genie_upgrade/resources/PPC_tables/spice_ftp-v3m/"
+Configuring nextgen sensors in "/home/jack/prometheus_genie_upgrade/resources/PPC_tables/upgrade_tables/"
+Configuring icemodel in "/home/jack/prometheus_genie_upgrade/resources/PPC_tables/spice_ftp-v3m/"
+Configuring tiltmodel in "/home/jack/prometheus_genie_upgrade/resources/PPC_tables/spice_ftp-v3m/"
+Configuring holeice from "/home/jack/prometheus_genie_upgrade/resources/PPC_tables/spice_ftp-v3m/as.dat"
+Configured: xR=1 eff=1.015 sf=0.137 g=0.9
+Ice anisotropy is k(130)=1,1,1
+New Ice anisotropy is 1.82212,0.740818,0.740818
+Renorm. NI anisotropy 1.69545,0.689318,0.689318
+Ice absorption anisotropy scaling is 0
+Initialized BFR diffusion patterns; s_eff=0.00246854 m^-1
+Loaded 101 angular acceptance points from /home/jack/prometheus_genie_upgrade/resources/PPC_tables/upgrade_tables/dom_as.dat
+loading DOM as.dat 
+Loaded 101 angular acceptance points from /home/jack/prometheus_genie_upgrade/resources/PPC_tables/upgrade_tables/mDOM_as.dat
+loading mDOM as.dat 
+Loaded 101 angular acceptance points from /home/jack/prometheus_genie_upgrade/resources/PPC_tables/upgrade_tables/DEgg_as.dat
+loading DEgg as.dat 
+Configured 642 uniform directions
+ OM Type -1 with 1 PMTs added (-nan)
+ OM Type 1 with 1 PMTs added (29.2001)
+ OM Type 3 with 24 PMTs added (9.47337)
+ OM Type 4 with 2 PMTs added (14.6567)
+Loaded 131072 random multipliers
+Loaded 5083 cable positions
+Loaded 399 RDE coefficients
+ Found 4761 OMs of type 1,0
+ Found 399 OMs of type 1,1
+Loaded 5160 DOMs (21x19)
+Loaded 80x125 2d dust layer points
+Ice layer thickness: UNIFORM
+Loaded 42 wavelenth points
+Loaded 42 RDE coefficients
+Loaded 43 wv points from file /home/jack/prometheus_genie_upgrade/resources/PPC_tables/upgrade_tables/om.wv_1.0
+Loaded 43 wv points from file /home/jack/prometheus_genie_upgrade/resources/PPC_tables/upgrade_tables/om.wv_1.1
+Calculated value of ppm=2527
+Loaded 171 ice layers
+Air bubble parameters: 11.7 1350 1400
+
+Processing f2k muons from stdin on device 0
+HQUO(photons/max number of hits)=1
+V 2000.1.2
+TBEGIN ? ? ?
+EM 0 1 0 0 0 0
+TR 0 0 amu- 64 83 -56.93 90 180 27.5 5 0
+Warning: muon_secondary_params_fine.txt not found, using original parameterization
+sampled: -1
+num photons: 84579
+EE
+TEND ? ? ?
+END
+photons: 84579  hits: 0

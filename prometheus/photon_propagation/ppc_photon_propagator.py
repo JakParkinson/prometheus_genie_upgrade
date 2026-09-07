@@ -94,6 +94,10 @@ def ppc_sim(
     tenv = os.environ.copy()
     tenv["PPCTABLESDIR"] = ppc_config["paths"]["ppc_tmpdir"]
 
+    nextgendir = ppc_config["paths"].get("nextgendir")
+    if nextgendir is not None:
+        tenv["NEXTGENDIR"] = nextgendir
+
     process = subprocess.Popen(command, shell=True, stdout=subprocess.PIPE, env=tenv)
     process.wait()
     particle.hits = parse_ppc(ppc_tmpfile)

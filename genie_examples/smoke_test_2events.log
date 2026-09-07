@@ -1,0 +1,681 @@
+2026-09-06 15:37:28,050 - fsspec.local - DEBUG - open file: /home/jack/genie_test_outputs/output_gheps/gntp_icecube_numu_2.gtrac.root
+2026-09-06 15:37:28,051 - fsspec.local - DEBUG - open file: /home/jack/genie_test_outputs/output_gheps/gntp_icecube_numu_2.gtrac.root
+2026-09-06 15:37:28,051 - fsspec.local - DEBUG - open file: /home/jack/genie_test_outputs/output_gheps/gntp_icecube_numu_2.gtrac.root
+2026-09-06 15:37:28,051 - fsspec.local - DEBUG - open file: /home/jack/genie_test_outputs/output_gheps/gntp_icecube_numu_2.gtrac.root
+2026-09-06 15:37:28,116 - fsspec.local - DEBUG - open file: /home/jack/genie_test_outputs/output_gheps/gntp_icecube_numu_2.gtrac.root
+2026-09-06 15:37:28,116 - fsspec.local - DEBUG - open file: /home/jack/genie_test_outputs/output_gheps/gntp_icecube_numu_2.gtrac.root
+2026-09-06 15:37:28,134 - asyncio - DEBUG - Using selector: EpollSelector
+2026-09-06 15:37:28,135 - fsspec.local - DEBUG - open file: /home/jack/genie_test_outputs/output_gheps/gntp_icecube_numu_2.gtrac.root
+2026-09-06 15:37:28,136 - fsspec.local - DEBUG - open file: /home/jack/genie_test_outputs/output_gheps/gntp_icecube_numu_2.gtrac.root
+2026-09-06 15:37:28,136 - fsspec.local - DEBUG - open file: /home/jack/genie_test_outputs/output_gheps/gntp_icecube_numu_2.gtrac.root
+2026-09-06 15:37:28,144 - fsspec.local - DEBUG - open file: /home/jack/genie_test_outputs/output_gheps/gntp_icecube_numu_2.gtrac.root
+2026-09-06 15:37:28,145 - fsspec.local - DEBUG - open file: /home/jack/genie_test_outputs/output_gheps/gntp_icecube_numu_2.gtrac.root
+2026-09-06 15:37:28,145 - fsspec.local - DEBUG - open file: /home/jack/genie_test_outputs/output_gheps/gntp_icecube_numu_2.gtrac.root
+2026-09-06 15:37:28,146 - fsspec.local - DEBUG - open file: /home/jack/genie_test_outputs/output_gheps/gntp_icecube_numu_2.gtrac.root
+2026-09-06 15:37:28,147 - fsspec.local - DEBUG - open file: /home/jack/genie_test_outputs/output_gheps/gntp_icecube_numu_2.gtrac.root
+2026-09-06 15:37:28,147 - fsspec.local - DEBUG - open file: /home/jack/genie_test_outputs/output_gheps/gntp_icecube_numu_2.gtrac.root
+2026-09-06 15:37:28,148 - fsspec.local - DEBUG - open file: /home/jack/genie_test_outputs/output_gheps/gntp_icecube_numu_2.gtrac.root
+2026-09-06 15:37:28,148 - fsspec.local - DEBUG - open file: /home/jack/genie_test_outputs/output_gheps/gntp_icecube_numu_2.gtrac.root
+2026-09-06 15:37:28,149 - fsspec.local - DEBUG - open file: /home/jack/genie_test_outputs/output_gheps/gntp_icecube_numu_2.gtrac.root
+2026-09-06 15:37:28,149 - fsspec.local - DEBUG - open file: /home/jack/genie_test_outputs/output_gheps/gntp_icecube_numu_2.gtrac.root
+2026-09-06 15:37:28,150 - fsspec.local - DEBUG - open file: /home/jack/genie_test_outputs/output_gheps/gntp_icecube_numu_2.gtrac.root
+2026-09-06 15:37:28,151 - fsspec.local - DEBUG - open file: /home/jack/genie_test_outputs/output_gheps/gntp_icecube_numu_2.gtrac.root
+2026-09-06 15:37:28,151 - fsspec.local - DEBUG - open file: /home/jack/genie_test_outputs/output_gheps/gntp_icecube_numu_2.gtrac.root
+2026-09-06 15:37:28,153 - fsspec.local - DEBUG - open file: /home/jack/genie_test_outputs/output_gheps/gntp_icecube_numu_2.gtrac.root
+2026-09-06 15:37:28,154 - fsspec.local - DEBUG - open file: /home/jack/genie_test_outputs/output_gheps/gntp_icecube_numu_2.gtrac.root
+2026-09-06 15:37:28,155 - fsspec.local - DEBUG - open file: /home/jack/genie_test_outputs/output_gheps/gntp_icecube_numu_2.gtrac.root
+2026-09-06 15:37:28,155 - fsspec.local - DEBUG - open file: /home/jack/genie_test_outputs/output_gheps/gntp_icecube_numu_2.gtrac.root
+2026-09-06 15:37:28,156 - fsspec.local - DEBUG - open file: /home/jack/genie_test_outputs/output_gheps/gntp_icecube_numu_2.gtrac.root
+--------------------------------------------------------------
+--------------------------------------------------------------
+Launching simulation
+Using simset: 99901
+Using root file: /home/jack/genie_test_outputs/output_gheps/gntp_icecube_numu_2.gtrac.root
+=== ALL TREES/OBJECTS IN ROOT FILE ===
+  gRooTracker;1: <class 'uproot.models.TTree.Model_TTree_v20'>
+    Branches: ['EvtFlags', 'EvtFlags/TObject', 'EvtFlags/fNbits', 'EvtFlags/fNbytes', 'EvtFlags/fAllBits', 'EvtCode', 'EvtCode/TObject', 'EvtCode/fString', 'EvtNum', 'EvtXSec', 'EvtDXSec', 'EvtKPS', 'EvtWght', 'EvtProb', 'EvtVtx', 'StdHepN', 'StdHepPdg', 'StdHepStatus', 'StdHepRescat', 'StdHepX4', 'StdHepP4', 'StdHepPolz', 'StdHepFd', 'StdHepLd', 'StdHepFm', 'StdHepLm']
+=== DETAILED ROOT FILE EXPLORATION ===
+
+Branches in gRooTracker tree:
+
+Branch: EvtFlags
+  Could not read data: none of the rules matched
+in file /home/jack/genie_test_outputs/output_gheps/gntp_icecube_numu_2.gtrac.root
+in object /gRooTracker;1:EvtFlags/TObject
+
+Branch: EvtFlags/TObject
+  Could not read data: none of the rules matched
+in file /home/jack/genie_test_outputs/output_gheps/gntp_icecube_numu_2.gtrac.root
+in object /gRooTracker;1:EvtFlags/TObject
+
+Branch: EvtFlags/fNbits
+  Sample data: 16
+  Data type: <class 'numpy.uint32'>
+
+Branch: EvtFlags/fNbytes
+  Sample data: 2
+  Data type: <class 'numpy.uint32'>
+
+Branch: EvtFlags/fAllBits
+  Sample data: [0 0]
+  Data type: <class 'numpy.ndarray'>
+
+Branch: EvtCode
+  Could not read data: none of the rules matched
+in file /home/jack/genie_test_outputs/output_gheps/gntp_icecube_numu_2.gtrac.root
+in object /gRooTracker;1:EvtCode/TObject
+
+Branch: EvtCode/TObject
+  Could not read data: none of the rules matched
+in file /home/jack/genie_test_outputs/output_gheps/gntp_icecube_numu_2.gtrac.root
+in object /gRooTracker;1:EvtCode/TObject
+
+Branch: EvtCode/fString
+  Sample data: nu:14;tgt:1000080160;N:2212;q:1(v);proc:Weak[CC],DIS;
+  Data type: <class 'str'>
+
+Branch: EvtNum
+  Sample data: 0
+  Data type: <class 'numpy.int32'>
+
+Branch: EvtXSec
+  Sample data: 72.8243624397512
+  Data type: <class 'numpy.float64'>
+
+Branch: EvtDXSec
+  Sample data: 191.87293825443442
+  Data type: <class 'numpy.float64'>
+
+Branch: EvtKPS
+  Sample data: 10
+  Data type: <class 'numpy.uint32'>
+
+Branch: EvtWght
+  Sample data: 1.0
+  Data type: <class 'numpy.float64'>
+
+Branch: EvtProb
+  Sample data: 2.4340004319008535e-15
+  Data type: <class 'numpy.float64'>
+
+Branch: EvtVtx
+  Sample data: [0. 0. 0. 0.]
+  Data type: <class 'numpy.ndarray'>
+
+Branch: StdHepN
+  Sample data: 25
+  Data type: <class 'numpy.int32'>
+
+Branch: StdHepPdg
+  Sample data: [        14 1000080160       2212 1000070150         22         13
+ 2000000001          2       2203         92        211        111
+       -211       2212        213        211        111        211
+        111       -211       2212       2212       2212        111
+ 2000000002]
+  Data type: <class 'numpy.ndarray'>
+
+Branch: StdHepStatus
+  Sample data: [ 0  0 11  2  1  1 12 12 12 12 14 14 14 14 12 14 14  1  1  1  1  1  1  1
+ 15]
+  Data type: <class 'numpy.ndarray'>
+
+Branch: StdHepRescat
+  Sample data: [-1 -1 -1 -1 -1 -1 -1 -1 -1 -1  1  1  1  1 -1  4  1 -1 -1 -1 -1 -1 -1 -1
+ -1]
+  Data type: <class 'numpy.ndarray'>
+
+Branch: StdHepX4
+  Sample data: [[-4.50881954e-02  1.68968875e-01 -2.23165486e-01  0.00000000e+00]
+ [ 0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00]
+ [-4.50881954e-02  1.68968875e-01 -2.23165486e-01  0.00000000e+00]
+ [ 0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00]
+ [ 0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00]
+ [-4.50881954e-02  1.68968875e-01 -2.23165486e-01  0.00000000e+00]
+ [ 0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00]
+ [-4.50881954e-02  1.68968875e-01 -2.23165486e-01  0.00000000e+00]
+ [-4.50881954e-02  1.68968875e-01 -2.23165486e-01  0.00000000e+00]
+ [-4.50881954e-02  1.68968875e-01 -2.23165486e-01  0.00000000e+00]
+ [-1.47592476e-01  1.79372464e-01  8.26794456e+00  0.00000000e+00]
+ [-5.79580469e-02 -1.88427081e+00  1.24413235e+01  0.00000000e+00]
+ [-5.51738795e-01  1.00124351e+00  2.40768392e+00  0.00000000e+00]
+ [ 1.26406750e+00  1.78975331e-03  2.08141587e+00  0.00000000e+00]
+ [-4.50881954e-02  1.68968875e-01 -2.23165486e-01  0.00000000e+00]
+ [ 1.25261963e-01 -4.49210969e-02  8.24877397e-02  0.00000000e+00]
+ [-1.72008324e+00  1.15980000e-02  2.97629225e+00  0.00000000e+00]
+ [-1.76563030e-01  1.82312807e-01  1.06677679e+01  0.00000000e+00]
+ [-5.79580469e-02 -1.88427081e+00  1.24413235e+01  0.00000000e+00]
+ [-1.99648194e+00  3.37452218e+00  9.90970136e+00  0.00000000e+00]
+ [ 5.33093833e+00 -5.17549460e-01  9.24056027e+00  0.00000000e+00]
+ [ 1.03908598e+00 -1.19230948e+00  1.72212964e+00  0.00000000e+00]
+ [ 1.03908598e+00 -1.19230948e+00  1.72212964e+00  0.00000000e+00]
+ [-5.07951007e+00 -3.04030360e-01  9.39323312e+00  0.00000000e+00]
+ [ 0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00]]
+  Data type: <class 'numpy.ndarray'>
+
+Branch: StdHepP4
+  Sample data: [[ 0.00000000e+00  0.00000000e+00  2.82088319e+01  2.82088319e+01]
+ [ 0.00000000e+00  0.00000000e+00  0.00000000e+00  1.48950805e+01]
+ [-6.46384477e-02  2.04591831e-01 -4.43702985e-02  9.24426441e-01]
+ [ 6.42705048e-02 -1.98295443e-01  4.47734418e-02  1.39643341e+01]
+ [ 3.67942872e-04 -6.29638734e-03 -4.03143292e-04  6.32000000e-03]
+ [ 2.53724386e-01  1.12279907e+00  1.47536343e+01  1.47988494e+01]
+ [-3.18362833e-01 -9.18207244e-01  1.34108273e+01  1.43344090e+01]
+ [-3.20868825e-01 -9.25434909e-01  1.35163906e+01  1.35558512e+01]
+ [ 2.50598722e-03  7.22765153e-03 -1.05563082e-01  7.78558014e-01]
+ [-3.18362823e-01 -9.18207213e-01  1.34108268e+01  1.43344085e+01]
+ [-4.18319909e-02  4.24570425e-03  3.46522151e+00  3.46828601e+00]
+ [-1.22817523e-02 -1.04450661e+00  6.54435323e+00  6.62856874e+00]
+ [-2.06764080e-01  3.39651229e-01  1.07364949e+00  1.15339384e+00]
+ [ 5.34062714e-01 -6.81997836e-02  9.40141021e-01  1.43320966e+00]
+ [-5.91547742e-01 -1.49397791e-01  1.38746196e+00  1.65095061e+00]
+ [ 6.95198896e-02 -8.72884850e-02  1.24737064e-01  2.17925243e-01]
+ [-6.61067650e-01 -6.21093147e-02  1.26272493e+00  1.43302541e+00]
+ [-4.18319909e-02  4.24570425e-03  3.46522151e+00  3.46828601e+00]
+ [-1.22817523e-02 -1.04450661e+00  6.54435323e+00  6.62856874e+00]
+ [-2.06764080e-01  3.39651229e-01  1.07364949e+00  1.15339384e+00]
+ [ 5.34062714e-01 -6.81997836e-02  9.40141021e-01  1.43320966e+00]
+ [-1.22851938e-01 -3.65103576e-01  7.96379650e-02  1.01739369e+00]
+ [ 2.38481224e-01  4.81039214e-01  5.48550657e-02  1.08242117e+00]
+ [-6.61067650e-01 -6.21093147e-02  1.26272493e+00  1.43302541e+00]
+ [ 1.81611084e-02 -4.01519566e-01  3.50174746e-02  1.20824444e+01]]
+  Data type: <class 'numpy.ndarray'>
+
+Branch: StdHepPolz
+  Sample data: [[ 0.          0.          0.        ]
+ [ 0.          0.          0.        ]
+ [ 0.          0.          0.        ]
+ [ 0.          0.          0.        ]
+ [ 0.          0.          0.        ]
+ [-0.01714531 -0.07587263 -0.9969701 ]
+ [ 0.          0.          0.        ]
+ [ 0.          0.          0.        ]
+ [ 0.          0.          0.        ]
+ [ 0.          0.          0.        ]
+ [ 0.          0.          0.        ]
+ [ 0.          0.          0.        ]
+ [ 0.          0.          0.        ]
+ [ 0.          0.          0.        ]
+ [ 0.          0.          0.        ]
+ [ 0.          0.          0.        ]
+ [ 0.          0.          0.        ]
+ [ 0.          0.          0.        ]
+ [ 0.          0.          0.        ]
+ [ 0.          0.          0.        ]
+ [ 0.          0.          0.        ]
+ [ 0.          0.          0.        ]
+ [ 0.          0.          0.        ]
+ [ 0.          0.          0.        ]
+ [ 0.          0.          0.        ]]
+  Data type: <class 'numpy.ndarray'>
+
+Branch: StdHepFd
+  Sample data: [ 5  2  6 24 -1 -1  7  9 -1 10 17 18 19 20 15 21 23 -1 -1 -1 -1 -1 -1 -1
+ -1]
+  Data type: <class 'numpy.ndarray'>
+
+Branch: StdHepLd
+  Sample data: [ 5  4  6 24 -1 -1  8  9 -1 14 17 18 19 20 16 22 23 -1 -1 -1 -1 -1 -1 -1
+ -1]
+  Data type: <class 'numpy.ndarray'>
+
+Branch: StdHepFm
+  Sample data: [-1 -1  1  1  1  0  2  6  6  7  9  9  9  9  9 14 14 10 11 12 13 15 15 16
+  3]
+2026-09-06 15:37:28,157 - fsspec.local - DEBUG - open file: /home/jack/genie_test_outputs/output_gheps/gntp_icecube_numu_2.gtrac.root
+2026-09-06 15:37:28,157 - fsspec.local - DEBUG - open file: /home/jack/genie_test_outputs/output_gheps/gntp_icecube_numu_2.gtrac.root
+2026-09-06 15:37:28,158 - fsspec.local - DEBUG - open file: /home/jack/genie_test_outputs/output_gheps/gntp_icecube_numu_2.gtrac.root
+2026-09-06 15:37:28,158 - fsspec.local - DEBUG - open file: /home/jack/genie_test_outputs/output_gheps/gntp_icecube_numu_2.gtrac.root
+2026-09-06 15:37:28,159 - fsspec.local - DEBUG - open file: /home/jack/genie_test_outputs/output_gheps/gntp_icecube_numu_2.gtrac.root
+2026-09-06 15:37:28,159 - fsspec.local - DEBUG - open file: /home/jack/genie_test_outputs/output_gheps/gntp_icecube_numu_2.gtrac.root
+2026-09-06 15:37:28,160 - fsspec.local - DEBUG - open file: /home/jack/genie_test_outputs/output_gheps/gntp_icecube_numu_2.gtrac.root
+2026-09-06 15:37:28,160 - fsspec.local - DEBUG - open file: /home/jack/genie_test_outputs/output_gheps/gntp_icecube_numu_2.gtrac.root
+2026-09-06 15:37:28,160 - fsspec.local - DEBUG - open file: /home/jack/genie_test_outputs/output_gheps/gntp_icecube_numu_2.gtrac.root
+2026-09-06 15:37:28,161 - fsspec.local - DEBUG - open file: /home/jack/genie_test_outputs/output_gheps/gntp_icecube_numu_2.gtrac.root
+2026-09-06 15:37:28,161 - fsspec.local - DEBUG - open file: /home/jack/genie_test_outputs/output_gheps/gntp_icecube_numu_2.gtrac.root
+2026-09-06 15:37:28,162 - fsspec.local - DEBUG - open file: /home/jack/genie_test_outputs/output_gheps/gntp_icecube_numu_2.gtrac.root
+2026-09-06 15:37:28,162 - fsspec.local - DEBUG - open file: /home/jack/genie_test_outputs/output_gheps/gntp_icecube_numu_2.gtrac.root
+/home/jack/prometheus_genie_upgrade/genie_examples/genie_parser_injection.py:23: RuntimeWarning: invalid value encountered in scalar divide
+  angle = np.arccos(np.clip(np.dot(v1, v2) / (np.linalg.norm(v1) * np.linalg.norm(v2)), -1, 1))
+  Data type: <class 'numpy.ndarray'>
+
+Branch: StdHepLm
+  Sample data: [-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+ -1]
+  Data type: <class 'numpy.ndarray'>
+
+=== INVESTIGATING EvtKPS ===
+EvtKPS type: <class 'numpy.ndarray'>
+EvtKPS length: 2
+First EvtKPS entry: 10
+EvtKPS entry type: <class 'numpy.uint32'>
+EvtKPS shape: ()
+File processing and conversion completed in 0.12 seconds
+Processing 2 events
+Serialization and saving completed in 0.02 seconds
+using injector {'name': 'GENIE', 'GENIE': {'inject': False, 'paths': {'injection file': None}}}
+photon prop:  PPCUPGRADE
+position: [  36.69507463   48.19269061 -138.14236839]
+detector offset [   10.12236383    -8.56100121 -2005.37453744]
+relative_position,  [   46.81743845    39.6316894  -2143.51690582]
+position: [   9.85137748 -145.40292333 -420.78493855]
+detector offset [   10.12236383    -8.56100121 -2005.37453744]
+relative_position,  [   19.9737413   -153.96392454 -2426.15947599]
+Using primary file: /home/jack/prometheus_genie_upgrade/genie_examples/../genie_examples/output/genie_events_primary_new_test_1_to_100gev_simset_99901_nevents_2_seed_4242_upgrade_doms_only_new_loss.parquet
+Using prometheus file: /home/jack/prometheus_genie_upgrade/genie_examples/../genie_examples/output/genie_events_prometheus_new_test_1_to_100gev_99901_nevents_2_seed_4242_upgrade_doms_only_new_loss.parquet
+  0%|          | 0/2 [00:00<?, ?it/s]Propagating photon:   0%|          | 0/2 [00:00<?, ?it/s]Propagating MuMinus:   0%|          | 0/2 [00:00<?, ?it/s]/home/jack/prometheus_genie_upgrade/genie_examples/../prometheus/lepton_propagation/new_proposal_lepton_propagator.py:197: UserWarning: Adjusting ecut and vcut to work with ppc
+  warnings.warn("Adjusting ecut and vcut to work with ppc", UserWarning)
+2026-09-06 15:37:31,900 - prometheus.lepton_propagation.new_proposal_lepton_propagator - DEBUG - New proposal f2k line: TR 0 0 1000000018 46.81743845205566 39.63168940370212 -2143.5169058237225 0.6869728803936727 0.49655461297656506 68.72275688209473 14.798849387540436 0.0
+
+2026-09-06 15:37:31,900 - prometheus.utils.write_to_f2k - DEBUG - TR 0 0 amu- 46.81743845205566 39.63168940370212 -195.44690582372255 0.6869728803936725 0.49655461297656506 68.72275688209473 14.798849387540436 1.0891154507088862e-09
+Configuring ppc in "./ppc_tmpdir99901/"
+Configuring nextgen sensors in "./ppc_tmpdir99901/"
+Configuring icemodel in "./ppc_tmpdir99901/"
+Configuring tiltmodel in "./ppc_tmpdir99901/"
+Configuring holeice from "./ppc_tmpdir99901/as.dat"
+Configured: xR=1 eff=1.015 sf=0.137 g=0.9
+Ice anisotropy is k(130)=1,1,1
+New Ice anisotropy is 1.82212,0.740818,0.740818
+Renorm. NI anisotropy 1.69545,0.689318,0.689318
+Ice absorption anisotropy scaling is 0
+Initialized BFR diffusion patterns; s_eff=0.00246854 m^-1
+Loaded 12 angsens coefficients
+Loaded 131072 random multipliers
+Loaded 5083 cable positions
+Loaded 399 RDE coefficients
+ Found 5384 OMs of type -1,0
+ Found 399 OMs of type -1,1
+Loaded 5783 DOMs (21x19)
+Loaded 80x125 2d dust layer points
+Ice layer thickness: UNIFORM
+Loaded 42 wavelenth points
+Loaded 42 RDE coefficients
+Calculated value of ppm=2268.22
+Loaded 171 ice layers
+Air bubble parameters: 11.7 1350 1400
+
+Processing f2k muons from stdin on device 0
+HQUO(photons/max number of hits)=1
+EM 0 1 0 0 0 0 
+MC E 14.798849387540434 x 46.817438452055654 y 39.63168940370212 z -195.44690582339604 theta 0.6869728803936725 phi 0.49655461297656506
+TR 0 0 amu- 46.81743845205566 39.63168940370212 -195.44690582372255 0.6869728803936725 0.49655461297656506 68.72275688209473 14.798849387540436 1.0891154507088862e-09 
+Warning: muon_secondary_params_fine.txt not found, using original parameterization
+sampled: -1
+num photons: 193091
+MC E 0.014252710073385045 x 85.13771451309702 y 60.39504149896233 z -142.3125763761998 theta 1.3855119301666678 phi 1.4789912923362927
+MC E 0.04126566989207898 x 85.13771451309702 y 60.39504149896233 z -142.3125763761998 theta 2.132260186835402 phi 2.216954264508652
+MC E 0.05013999453453597 x 85.13771451309702 y 60.39504149896233 z -142.3125763761998 theta 1.1746595179843506 phi -1.12969056025998
+EE
+photons: 193091  hits: 15
+Propagating PiPlus:   0%|          | 0/2 [00:01<?, ?it/s] 2026-09-06 15:37:33,362 - prometheus.utils.write_to_f2k - DEBUG - TR 0 0 hadr 46.817438452055654 39.63168940370212 -195.44690582339604 0.6150432323797416 0.5348800036026776 0 3.46828601337033 0.0
+Configuring ppc in "./ppc_tmpdir99901/"
+Configuring nextgen sensors in "./ppc_tmpdir99901/"
+Configuring icemodel in "./ppc_tmpdir99901/"
+Configuring tiltmodel in "./ppc_tmpdir99901/"
+Configuring holeice from "./ppc_tmpdir99901/as.dat"
+Configured: xR=1 eff=1.015 sf=0.137 g=0.9
+Ice anisotropy is k(130)=1,1,1
+New Ice anisotropy is 1.82212,0.740818,0.740818
+Renorm. NI anisotropy 1.69545,0.689318,0.689318
+Ice absorption anisotropy scaling is 0
+Initialized BFR diffusion patterns; s_eff=0.00246854 m^-1
+Loaded 12 angsens coefficients
+Loaded 131072 random multipliers
+Loaded 5083 cable positions
+Loaded 399 RDE coefficients
+ Found 5384 OMs of type -1,0
+ Found 399 OMs of type -1,1
+Loaded 5783 DOMs (21x19)
+Loaded 80x125 2d dust layer points
+Ice layer thickness: UNIFORM
+Loaded 42 wavelenth points
+Loaded 42 RDE coefficients
+Calculated value of ppm=2268.22
+Loaded 171 ice layers
+Air bubble parameters: 11.7 1350 1400
+
+Processing f2k muons from stdin on device 0
+HQUO(photons/max number of hits)=1
+EM 0 1 0 0 0 0 
+MC E 3.46828601337033 x 46.817438452055654 y 39.63168940370212 z -195.44690582339604 theta 0.6150432323797416 phi 0.5348800036026776
+TR 0 0 hadr 46.817438452055654 39.63168940370212 -195.44690582339604 0.6150432323797416 0.5348800036026776 0 3.46828601337033 0.0 
+num photons: 22431
+EE
+photons: 22431  hits: 3
+Propagating PiZero:   0%|          | 0/2 [00:02<?, ?it/s]Propagating PiMinus:   0%|          | 0/2 [00:02<?, ?it/s]2026-09-06 15:37:33,613 - prometheus.utils.write_to_f2k - DEBUG - TR 0 0 hadr 46.817438452055654 39.63168940370212 -195.44690582339604 0.9206864145579587 0.5383460881305325 0 1.1533938390467404 0.0
+Configuring ppc in "./ppc_tmpdir99901/"
+Configuring nextgen sensors in "./ppc_tmpdir99901/"
+Configuring icemodel in "./ppc_tmpdir99901/"
+Configuring tiltmodel in "./ppc_tmpdir99901/"
+Configuring holeice from "./ppc_tmpdir99901/as.dat"
+Configured: xR=1 eff=1.015 sf=0.137 g=0.9
+Ice anisotropy is k(130)=1,1,1
+New Ice anisotropy is 1.82212,0.740818,0.740818
+Renorm. NI anisotropy 1.69545,0.689318,0.689318
+Ice absorption anisotropy scaling is 0
+Initialized BFR diffusion patterns; s_eff=0.00246854 m^-1
+Loaded 12 angsens coefficients
+Loaded 131072 random multipliers
+Loaded 5083 cable positions
+Loaded 399 RDE coefficients
+ Found 5384 OMs of type -1,0
+ Found 399 OMs of type -1,1
+Loaded 5783 DOMs (21x19)
+Loaded 80x125 2d dust layer points
+Ice layer thickness: UNIFORM
+Loaded 42 wavelenth points
+Loaded 42 RDE coefficients
+Calculated value of ppm=2268.22
+Loaded 171 ice layers
+Air bubble parameters: 11.7 1350 1400
+
+Processing f2k muons from stdin on device 0
+HQUO(photons/max number of hits)=1
+EM 0 1 0 0 0 0 
+MC E 1.1533938390467404 x 46.817438452055654 y 39.63168940370212 z -195.44690582339604 theta 0.9206864145579587 phi 0.5383460881305325
+TR 0 0 hadr 46.817438452055654 39.63168940370212 -195.44690582339604 0.9206864145579587 0.5383460881305325 0 1.1533938390467404 0.0 
+num photons: 2201
+EE
+photons: 2201  hits: 0
+Propagating Proton:   0%|          | 0/2 [00:02<?, ?it/s] 2026-09-06 15:37:33,741 - prometheus.utils.write_to_f2k - DEBUG - TR 0 0 hadr 46.817438452055654 39.63168940370212 -195.44690582339604 0.6459145420461286 0.6438166002690568 0 1.4332096611921967 0.0
+Configuring ppc in "./ppc_tmpdir99901/"
+Configuring nextgen sensors in "./ppc_tmpdir99901/"
+Configuring icemodel in "./ppc_tmpdir99901/"
+Configuring tiltmodel in "./ppc_tmpdir99901/"
+Configuring holeice from "./ppc_tmpdir99901/as.dat"
+Configured: xR=1 eff=1.015 sf=0.137 g=0.9
+Ice anisotropy is k(130)=1,1,1
+New Ice anisotropy is 1.82212,0.740818,0.740818
+Renorm. NI anisotropy 1.69545,0.689318,0.689318
+Ice absorption anisotropy scaling is 0
+Initialized BFR diffusion patterns; s_eff=0.00246854 m^-1
+Loaded 12 angsens coefficients
+Loaded 131072 random multipliers
+Loaded 5083 cable positions
+Loaded 399 RDE coefficients
+ Found 5384 OMs of type -1,0
+ Found 399 OMs of type -1,1
+Loaded 5783 DOMs (21x19)
+Loaded 80x125 2d dust layer points
+Ice layer thickness: UNIFORM
+Loaded 42 wavelenth points
+Loaded 42 RDE coefficients
+Calculated value of ppm=2268.22
+Loaded 171 ice layers
+Air bubble parameters: 11.7 1350 1400
+
+Processing f2k muons from stdin on device 0
+HQUO(photons/max number of hits)=1
+EM 0 1 0 0 0 0 
+MC E 1.4332096611921967 x 46.817438452055654 y 39.63168940370212 z -195.44690582339604 theta 0.6459145420461286 phi 0.6438166002690568
+TR 0 0 hadr 46.817438452055654 39.63168940370212 -195.44690582339604 0.6459145420461286 0.6438166002690568 0 1.4332096611921967 0.0 
+num photons: 7491
+EE
+photons: 7491  hits: 4
+Propagating Proton:   0%|          | 0/2 [00:02<?, ?it/s]2026-09-06 15:37:33,883 - prometheus.utils.write_to_f2k - DEBUG - TR 0 0 hadr 46.817438452055654 39.63168940370212 -195.44690582339604 0.9973469964012471 2.59947858864139 0 1.0173936915677289 0.0
+Configuring ppc in "./ppc_tmpdir99901/"
+Configuring nextgen sensors in "./ppc_tmpdir99901/"
+Configuring icemodel in "./ppc_tmpdir99901/"
+Configuring tiltmodel in "./ppc_tmpdir99901/"
+Configuring holeice from "./ppc_tmpdir99901/as.dat"
+Configured: xR=1 eff=1.015 sf=0.137 g=0.9
+Ice anisotropy is k(130)=1,1,1
+New Ice anisotropy is 1.82212,0.740818,0.740818
+Renorm. NI anisotropy 1.69545,0.689318,0.689318
+Ice absorption anisotropy scaling is 0
+Initialized BFR diffusion patterns; s_eff=0.00246854 m^-1
+Loaded 12 angsens coefficients
+Loaded 131072 random multipliers
+Loaded 5083 cable positions
+Loaded 399 RDE coefficients
+ Found 5384 OMs of type -1,0
+ Found 399 OMs of type -1,1
+Loaded 5783 DOMs (21x19)
+Loaded 80x125 2d dust layer points
+Ice layer thickness: UNIFORM
+Loaded 42 wavelenth points
+Loaded 42 RDE coefficients
+Calculated value of ppm=2268.22
+Loaded 171 ice layers
+Air bubble parameters: 11.7 1350 1400
+
+Processing f2k muons from stdin on device 0
+HQUO(photons/max number of hits)=1
+EM 0 1 0 0 0 0 
+MC E 1.0173936915677289 x 46.817438452055654 y 39.63168940370212 z -195.44690582339604 theta 0.9973469964012471 phi 2.59947858864139
+TR 0 0 hadr 46.817438452055654 39.63168940370212 -195.44690582339604 0.9973469964012471 2.59947858864139 0 1.0173936915677289 0.0 
+num photons: 3297
+EE
+photons: 3297  hits: 0
+Propagating Proton:   0%|          | 0/2 [00:02<?, ?it/s]2026-09-06 15:37:33,982 - prometheus.utils.write_to_f2k - DEBUG - TR 0 0 hadr 46.817438452055654 39.63168940370212 -195.44690582339604 2.0698347295113573 0.45063809862000553 0 1.0824211733049496 0.0
+Configuring ppc in "./ppc_tmpdir99901/"
+Configuring nextgen sensors in "./ppc_tmpdir99901/"
+Configuring icemodel in "./ppc_tmpdir99901/"
+Configuring tiltmodel in "./ppc_tmpdir99901/"
+Configuring holeice from "./ppc_tmpdir99901/as.dat"
+Configured: xR=1 eff=1.015 sf=0.137 g=0.9
+Ice anisotropy is k(130)=1,1,1
+New Ice anisotropy is 1.82212,0.740818,0.740818
+Renorm. NI anisotropy 1.69545,0.689318,0.689318
+Ice absorption anisotropy scaling is 0
+Initialized BFR diffusion patterns; s_eff=0.00246854 m^-1
+Loaded 12 angsens coefficients
+Loaded 131072 random multipliers
+Loaded 5083 cable positions
+Loaded 399 RDE coefficients
+ Found 5384 OMs of type -1,0
+ Found 399 OMs of type -1,1
+Loaded 5783 DOMs (21x19)
+Loaded 80x125 2d dust layer points
+Ice layer thickness: UNIFORM
+Loaded 42 wavelenth points
+Loaded 42 RDE coefficients
+Calculated value of ppm=2268.22
+Loaded 171 ice layers
+Air bubble parameters: 11.7 1350 1400
+
+Processing f2k muons from stdin on device 0
+HQUO(photons/max number of hits)=1
+EM 0 1 0 0 0 0 
+MC E 1.0824211733049496 x 46.817438452055654 y 39.63168940370212 z -195.44690582339604 theta 2.0698347295113573 phi 0.45063809862000553
+TR 0 0 hadr 46.817438452055654 39.63168940370212 -195.44690582339604 2.0698347295113573 0.45063809862000553 0 1.0824211733049496 0.0 
+num photons: 1125
+EE
+photons: 1125  hits: 0
+Propagating PiZero:   0%|          | 0/2 [00:02<?, ?it/s]Propagating PiZero:  50%|█████     | 1/2 [00:02<00:02,  2.67s/it]Propagating photon:  50%|█████     | 1/2 [00:02<00:02,  2.67s/it]Propagating NuMu:  50%|█████     | 1/2 [00:02<00:02,  2.67s/it]  Propagating PiPlus:  50%|█████     | 1/2 [00:02<00:02,  2.67s/it]2026-09-06 15:37:34,065 - prometheus.utils.write_to_f2k - DEBUG - TR 0 0 hadr 19.973741303387207 -153.9639245443589 -478.08947598689724 1.9047925331563833 2.357129055445547 0 12.0686641286913 0.0
+Configuring ppc in "./ppc_tmpdir99901/"
+Configuring nextgen sensors in "./ppc_tmpdir99901/"
+Configuring icemodel in "./ppc_tmpdir99901/"
+Configuring tiltmodel in "./ppc_tmpdir99901/"
+Configuring holeice from "./ppc_tmpdir99901/as.dat"
+Configured: xR=1 eff=1.015 sf=0.137 g=0.9
+Ice anisotropy is k(130)=1,1,1
+New Ice anisotropy is 1.82212,0.740818,0.740818
+Renorm. NI anisotropy 1.69545,0.689318,0.689318
+Ice absorption anisotropy scaling is 0
+Initialized BFR diffusion patterns; s_eff=0.00246854 m^-1
+Loaded 12 angsens coefficients
+Loaded 131072 random multipliers
+Loaded 5083 cable positions
+Loaded 399 RDE coefficients
+ Found 5384 OMs of type -1,0
+ Found 399 OMs of type -1,1
+Loaded 5783 DOMs (21x19)
+Loaded 80x125 2d dust layer points
+Ice layer thickness: UNIFORM
+Loaded 42 wavelenth points
+Loaded 42 RDE coefficients
+Calculated value of ppm=2268.22
+Loaded 171 ice layers
+Air bubble parameters: 11.7 1350 1400
+
+Processing f2k muons from stdin on device 0
+HQUO(photons/max number of hits)=1
+EM 0 1 0 0 0 0 
+MC E 12.0686641286913 x 19.973741303387207 y -153.9639245443589 z -478.08947598689724 theta 1.9047925331563833 phi 2.357129055445547
+TR 0 0 hadr 19.973741303387207 -153.9639245443589 -478.08947598689724 1.9047925331563833 2.357129055445547 0 12.0686641286913 0.0 
+num photons: 108735
+EE
+photons: 108735  hits: 31
+Propagating PiPlus:  50%|█████     | 1/2 [00:03<00:02,  2.67s/it]2026-09-06 15:37:34,832 - prometheus.utils.write_to_f2k - DEBUG - TR 0 0 hadr 19.973741303387207 -153.9639245443589 -478.08947598689724 1.8992388093051475 2.341421001100436 0 1.573516914964781 0.0
+Configuring ppc in "./ppc_tmpdir99901/"
+Configuring nextgen sensors in "./ppc_tmpdir99901/"
+Configuring icemodel in "./ppc_tmpdir99901/"
+Configuring tiltmodel in "./ppc_tmpdir99901/"
+Configuring holeice from "./ppc_tmpdir99901/as.dat"
+Configured: xR=1 eff=1.015 sf=0.137 g=0.9
+Ice anisotropy is k(130)=1,1,1
+New Ice anisotropy is 1.82212,0.740818,0.740818
+Renorm. NI anisotropy 1.69545,0.689318,0.689318
+Ice absorption anisotropy scaling is 0
+Initialized BFR diffusion patterns; s_eff=0.00246854 m^-1
+Loaded 12 angsens coefficients
+Loaded 131072 random multipliers
+Loaded 5083 cable positions
+Loaded 399 RDE coefficients
+ Found 5384 OMs of type -1,0
+ Found 399 OMs of type -1,1
+Loaded 5783 DOMs (21x19)
+Loaded 80x125 2d dust layer points
+Ice layer thickness: UNIFORM
+Loaded 42 wavelenth points
+Loaded 42 RDE coefficients
+Calculated value of ppm=2268.22
+Loaded 171 ice layers
+Air bubble parameters: 11.7 1350 1400
+
+Processing f2k muons from stdin on device 0
+HQUO(photons/max number of hits)=1
+EM 0 1 0 0 0 0 
+MC E 1.573516914964781 x 19.973741303387207 y -153.9639245443589 z -478.08947598689724 theta 1.8992388093051475 phi 2.341421001100436
+TR 0 0 hadr 19.973741303387207 -153.9639245443589 -478.08947598689724 1.8992388093051475 2.341421001100436 0 1.573516914964781 0.0 
+num photons: 14428
+EE
+photons: 14428  hits: 2
+Propagating PiMinus:  50%|█████     | 1/2 [00:03<00:02,  2.67s/it]2026-09-06 15:37:35,010 - prometheus.utils.write_to_f2k - DEBUG - TR 0 0 hadr 19.973741303387207 -153.9639245443589 -478.08947598689724 2.246963494222027 -1.6772111818713142 0 0.5016055669352258 0.0
+Configuring ppc in "./ppc_tmpdir99901/"
+Configuring nextgen sensors in "./ppc_tmpdir99901/"
+Configuring icemodel in "./ppc_tmpdir99901/"
+Configuring tiltmodel in "./ppc_tmpdir99901/"
+Configuring holeice from "./ppc_tmpdir99901/as.dat"
+Configured: xR=1 eff=1.015 sf=0.137 g=0.9
+Ice anisotropy is k(130)=1,1,1
+New Ice anisotropy is 1.82212,0.740818,0.740818
+Renorm. NI anisotropy 1.69545,0.689318,0.689318
+Ice absorption anisotropy scaling is 0
+Initialized BFR diffusion patterns; s_eff=0.00246854 m^-1
+Loaded 12 angsens coefficients
+Loaded 131072 random multipliers
+Loaded 5083 cable positions
+Loaded 399 RDE coefficients
+ Found 5384 OMs of type -1,0
+ Found 399 OMs of type -1,1
+Loaded 5783 DOMs (21x19)
+Loaded 80x125 2d dust layer points
+Ice layer thickness: UNIFORM
+Loaded 42 wavelenth points
+Loaded 42 RDE coefficients
+Calculated value of ppm=2268.22
+Loaded 171 ice layers
+Air bubble parameters: 11.7 1350 1400
+
+Processing f2k muons from stdin on device 0
+HQUO(photons/max number of hits)=1
+EM 0 1 0 0 0 0 
+MC E 0.5016055669352258 x 19.973741303387207 y -153.9639245443589 z -478.08947598689724 theta 2.246963494222027 phi -1.6772111818713142
+TR 0 0 hadr 19.973741303387207 -153.9639245443589 -478.08947598689724 2.246963494222027 -1.6772111818713142 0 0.5016055669352258 0.0 
+num photons: 2002
+EE
+photons: 2002  hits: 0
+Propagating PiMinus:  50%|█████     | 1/2 [00:03<00:02,  2.67s/it]2026-09-06 15:37:35,101 - prometheus.utils.write_to_f2k - DEBUG - TR 0 0 hadr 19.973741303387207 -153.9639245443589 -478.08947598689724 1.892323184632365 2.3628622338639116 0 11.055287559392772 0.0
+Configuring ppc in "./ppc_tmpdir99901/"
+Configuring nextgen sensors in "./ppc_tmpdir99901/"
+Configuring icemodel in "./ppc_tmpdir99901/"
+Configuring tiltmodel in "./ppc_tmpdir99901/"
+Configuring holeice from "./ppc_tmpdir99901/as.dat"
+Configured: xR=1 eff=1.015 sf=0.137 g=0.9
+Ice anisotropy is k(130)=1,1,1
+New Ice anisotropy is 1.82212,0.740818,0.740818
+Renorm. NI anisotropy 1.69545,0.689318,0.689318
+Ice absorption anisotropy scaling is 0
+Initialized BFR diffusion patterns; s_eff=0.00246854 m^-1
+Loaded 12 angsens coefficients
+Loaded 131072 random multipliers
+Loaded 5083 cable positions
+Loaded 399 RDE coefficients
+ Found 5384 OMs of type -1,0
+ Found 399 OMs of type -1,1
+Loaded 5783 DOMs (21x19)
+Loaded 80x125 2d dust layer points
+Ice layer thickness: UNIFORM
+Loaded 42 wavelenth points
+Loaded 42 RDE coefficients
+Calculated value of ppm=2268.22
+Loaded 171 ice layers
+Air bubble parameters: 11.7 1350 1400
+
+Processing f2k muons from stdin on device 0
+HQUO(photons/max number of hits)=1
+EM 0 1 0 0 0 0 
+MC E 11.055287559392772 x 19.973741303387207 y -153.9639245443589 z -478.08947598689724 theta 1.892323184632365 phi 2.3628622338639116
+TR 0 0 hadr 19.973741303387207 -153.9639245443589 -478.08947598689724 1.892323184632365 2.3628622338639116 0 11.055287559392772 0.0 
+num photons: 48301
+EE
+photons: 48301  hits: 8
+Propagating PiZero:  50%|█████     | 1/2 [00:04<00:02,  2.67s/it] Propagating Neutron:  50%|█████     | 1/2 [00:04<00:02,  2.67s/it]2026-09-06 15:37:35,464 - prometheus.utils.write_to_f2k - DEBUG - TR 0 0 hadr 19.973741303387207 -153.9639245443589 -478.08947598689724 1.889124895463195 2.351542735944137 0 8.739436240233298 0.0
+Configuring ppc in "./ppc_tmpdir99901/"
+Configuring nextgen sensors in "./ppc_tmpdir99901/"
+Configuring icemodel in "./ppc_tmpdir99901/"
+Configuring tiltmodel in "./ppc_tmpdir99901/"
+Configuring holeice from "./ppc_tmpdir99901/as.dat"
+Configured: xR=1 eff=1.015 sf=0.137 g=0.9
+Ice anisotropy is k(130)=1,1,1
+New Ice anisotropy is 1.82212,0.740818,0.740818
+Renorm. NI anisotropy 1.69545,0.689318,0.689318
+Ice absorption anisotropy scaling is 0
+Initialized BFR diffusion patterns; s_eff=0.00246854 m^-1
+Loaded 12 angsens coefficients
+Loaded 131072 random multipliers
+Loaded 5083 cable positions
+Loaded 399 RDE coefficients
+ Found 5384 OMs of type -1,0
+ Found 399 OMs of type -1,1
+Loaded 5783 DOMs (21x19)
+Loaded 80x125 2d dust layer points
+Ice layer thickness: UNIFORM
+Loaded 42 wavelenth points
+Loaded 42 RDE coefficients
+Calculated value of ppm=2268.22
+Loaded 171 ice layers
+Air bubble parameters: 11.7 1350 1400
+
+Processing f2k muons from stdin on device 0
+HQUO(photons/max number of hits)=1
+EM 0 1 0 0 0 0 
+MC E 8.739436240233298 x 19.973741303387207 y -153.9639245443589 z -478.08947598689724 theta 1.889124895463195 phi 2.351542735944137
+TR 0 0 hadr 19.973741303387207 -153.9639245443589 -478.08947598689724 1.889124895463195 2.351542735944137 0 8.739436240233298 0.0 
+num photons: 43842
+EE
+photons: 43842  hits: 17
+Propagating PiZero:  50%|█████     | 1/2 [00:04<00:02,  2.67s/it] Propagating PiZero: 100%|██████████| 2/2 [00:04<00:00,  2.13s/it]Propagating PiZero: 100%|██████████| 2/2 [00:04<00:00,  2.21s/it]
+Handling photon 22
+Photon deposited 0.01 GeV at position [   46.81743845    39.6316894  -2143.51690582]
+propagating  13
+Handling charged pion/kaon/electron 211
+Handling charged pion/kaon/electron -211
+returning hadron 2212
+returning hadron 2212
+returning hadron 2212
+Handling photon 22
+Photon deposited 0.01 GeV at position [   19.9737413   -153.96392454 -2426.15947599]
+Handling charged pion/kaon/electron 211
+Handling charged pion/kaon/electron 211
+Handling charged pion/kaon/electron -211
+Handling charged pion/kaon/electron -211
+returning hadron 2112
+Prometheus simulation completed in 7.64 seconds
+Total execution time: 7.79 seconds (0.13 minutes)
+Finished without catastrophic error
+Finished call
+--------------------------------------------------------------
+--------------------------------------------------------------
+I am melting.... AHHHHHH!!!!

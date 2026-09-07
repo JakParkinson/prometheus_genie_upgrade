@@ -80,7 +80,9 @@ def main():
 
     ## GENIE stuff:
     config["injection"]["name"] = "GENIE"
-    config["run"]["outfile"] = f"{OUTPUT_DIR}/50k_events_simset_{simset}_{timestamp}.parquet"
+    config["run"]["outfile"] = (
+    f"{OUTPUT_DIR}/genie_upgrade_simset_{simset}_{timestamp}.parquet"
+)
     config["run"]["nevents"] = num_events
     config["injection"]["GENIE"] = config["injection"].get("GENIE", {})
     config["injection"]["GENIE"]["paths"] = config["injection"]["GENIE"].get("paths", {})

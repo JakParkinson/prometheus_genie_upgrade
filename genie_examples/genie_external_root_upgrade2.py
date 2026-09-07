@@ -17,7 +17,7 @@ from genie_parser_injection import parse_and_convert_genie
 
 from inject_in_cylinder import inject_particles_in_cylinder
 from rotate_particles import rotate_particles_final
-from aggregate_hadronic_shower import group_hadronic_showers
+#from aggregate_hadronic_shower import group_hadronic_showers
 
 # Set up logging
 logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
@@ -90,7 +90,10 @@ def main():
 
     ## GENIE stuff:
     config["injection"]["name"] = "GENIE"
-    config["run"]["outfile"] = f"{OUTPUT_DIR}/final_out_{num_events}_events_1_to_100gev_simset_{simset}_seed_{seed_num}_upgrade_omsim_beta_new_muon_{timestamp}_new_loss.parquet"
+    #config["run"]["outfile"] = f"{OUTPUT_DIR}/final_out_{num_events}_events_1_to_100gev_simset_{simset}_seed_{seed_num}_upgrade_omsim_beta_new_muon_{timestamp}_new_loss.parquet"
+    config["run"]["outfile"] = (
+    f"{OUTPUT_DIR}/genie_upgrade_simset_{simset}_{timestamp}.parquet"
+)
     config["run"]["nevents"] = num_events
     config["injection"]["GENIE"] = config["injection"].get("GENIE", {})
     config["injection"]["GENIE"]["paths"] = config["injection"]["GENIE"].get("paths", {})
@@ -103,7 +106,9 @@ def main():
     config["photon propagator"]["PPC_UPGRADE"]["paths"]["ppc_tmpdir"] = "./ppc_tmpdir" + str(simset)
     config["photon propagator"]["PPC_UPGRADE"]["paths"]["ppc_tmpfile"] = "ppc_tmp"+str(simset)
     #config["photon propagator"]["PPC_UPGRADE"]["paths"]["ppctables"] = '/groups/icecube/jackp/prometheus_genie_cleaned/harvard-prometheus/resources/PPC_tables/spice_ftp-v3m'
-    config["photon propagator"]["PPC_UPGRADE"]["paths"]["ppctables"] = '/groups/icecube/jackp/prometheus_genie_cleaned/harvard-prometheus/resources/PPC_tables/spice_ftp-v3m'
+    config["photon propagator"]["PPC_UPGRADE"]["paths"]["ppctables"] = os.path.join(
+        RESOURCE_DIR, "PPC_tables", "spice_ftp-v3m"
+    )
     
     config["photon propagator"]["PPC_UPGRADE"]["simulation"]["supress_output"] = False ## for printing!
     # Timing for Prometheus simulation

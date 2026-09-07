@@ -5,6 +5,8 @@ struct MuonParam {
 vector<MuonParam> muon_params;
 bool muon_params_loaded = false;
 
+float grnd();
+
 void load_muon_params() {
     if (muon_params_loaded) return;
     
@@ -51,6 +53,7 @@ float sample_muon_secondary(float energy_gev, float track_distance_m) {
     
     cerr << "energy_gev " << energy_gev << ", track_distance_m" << track_distance_m 
          << "closest mu : " << closest->mu << ", closest sigma: " << closest->sigma << endl;
+    
     
     float normal_sample = grnd(); // grnd() samples from a N(0,1)
     return expf(closest->mu + closest->sigma * normal_sample);
